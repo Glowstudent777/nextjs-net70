@@ -19,7 +19,7 @@ app.UseRouting();
 
 
 app.MapControllerRoute(
-    name: "default",
+    name: "Default",
     pattern: "{controller}/{action=Index}/{id?}");
 
 app.MapFallbackToFile("index.html");
